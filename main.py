@@ -10,8 +10,17 @@ def area (length, width):
     
 def test_calculate_rectangle_area():
     assert area (5,6) == 30
-    
+
 def triangle_area(base, height):
+    """
+    calculate the area of a triangle
+
+    Args:
+        base: the base of the triangle
+        height: the height of the triangle.
+    Returns:
+        the calculated area of the 
+    """
     return base * height / 2
 
 def test_calculate_triangle_area():
