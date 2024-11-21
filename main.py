@@ -1,3 +1,4 @@
+import math
 def area (length, width):
     """ calculate the area of a rectangle.
     Args:
@@ -25,3 +26,9 @@ def triangle_area(base, height):
 
 def test_calculate_triangle_area():
     assert triangle_area (10,12) == 60.0
+
+
+def test_circle_area():
+    radius = 3
+    circ_area = 28.27433
+    assert circle_area(radius) == circ_area
