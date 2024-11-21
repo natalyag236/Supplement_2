@@ -31,4 +31,4 @@ def test_calculate_triangle_area():
 def test_circle_area():
     radius = 3
     circ_area = 28.27433
-    assert circle_area(radius) == circ_area
+    assert round(circle_area(radius),5) == round(circ_area,5)
