@@ -27,6 +27,8 @@ def triangle_area(base, height):
 def test_calculate_triangle_area():
     assert triangle_area (10,12) == 60.0
 
+def circle_area(radius):
+    return math.pi * (radius ** 2)
 
 def test_circle_area():
     radius = 3
