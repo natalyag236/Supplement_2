@@ -7,7 +7,9 @@ def area (length, width):
         the calculated area of the rectangle.
     """
     return length * width
-
+    
 def test_calculate_rectangle_area():
     assert area (5,6) == 30
-    
+
+def test_calculate_triangle_area():
+    assert triangle_area (10,12) == 60.0
